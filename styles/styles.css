@@ -243,10 +243,10 @@ figcaption {
   padding: 0;
   margin-top: 80px;
   align-items: center;
-  background-image: url(/assets/images/Rectangle-9.png);
-  background-attachment: cover;
+  background-image: url(../assets/images/Rectangle-9.png);
+  background-repeat: no-repeat;
   text-align: center;
-  width: 1440px;
+
   height: 449px;
   margin-left: 260px;
   margin-right: 2=00px;
