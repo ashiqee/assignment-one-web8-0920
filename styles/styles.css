@@ -11,14 +11,28 @@ body {
 
 /* Banner styles css start   */
 
+.btn-primary {
+  border-radius: 8px;
+  background: #e55473;
+  border: 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/* Banner styles css start   */
+
 .banner {
-  margin: auto;
+  /* margin:auto; */
   display: flex;
   padding: 50px 240px 0px 240px; /* TRBL */
   background-color: rgba(229, 84, 115, 0.1);
   align-items: center;
   justify-content: space-around;
-  background-image: url(assets/images/pngwing 10.png);
 }
 
 .banner-title {
@@ -27,7 +41,7 @@ body {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  width: 708px;
+  /* width: 708px; */
   flex-direction: column;
 }
 
@@ -43,26 +57,12 @@ body {
   padding-bottom: 32px;
 }
 
-.btn-banner {
-  border-radius: 8px;
-  background: #e55473;
-  border: 0;
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 700;
-  display: inline-flex;
-  padding: 20px 43px;
-  align-items: flex-start;
-  margin-bottom: 20px;
-  /* gap: 10px; */
-}
-
-.banner-img{
+/* .banner-img{
     margin: 0px;
     padding: 0px;
     
     background-position: right bottom, left top;
-}
+} */
 
 /* Feature Section Styles Start  */
 
@@ -94,40 +94,46 @@ body {
   gap: 20px;
 }
 
-#f-img {
+#f-img-one {
   width: 464px;
   height: 538px;
-  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  object-fit: cover;
 }
 .img-one {
   padding: 110px 78px 0px 76px;
   margin: 0;
-  border-radius: 300px 300px 0px 0px;
-  background: rgba(167, 33, 98, 0.15);
 }
 
-div img {
-  margin: 0px;
-  padding: 0px;
-  width: 310px;
-  height: 428px;
+#f-img-two {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  width: 464px;
+  height: 538px;
 }
+
 .img-two {
   padding: 110px 78px 0px 76px;
   margin: 0;
+  margin-bottom: 60px;
+}
+
+#f-img-three {
   border-radius: 300px 300px 0px 0px;
-  background: rgba(5, 151, 160, 0.15);
+  background: rgba(71, 125, 17, 0.15);
+  width: 464px;
+  height: 538px;
 }
 .img-three {
-  padding: 110px 78px 0px 76px;
+  padding: 68px 78px 0px 76px;
   margin: 0;
-  border-radius: 300px 300px 0px 0px;
-  background: rgba(167, 33, 98, 0.15);
 }
 
 figcaption {
   padding-top: 20px;
   text-align: center;
+  font-weight: 700;
   text-decoration: underline;
 }
 
@@ -195,7 +201,9 @@ figcaption {
 
 .inst-content {
   margin-top: 100px;
-  padding: auto;
+  /* padding: auto; */
+  padding-left: 240px;
+  padding-right: 240px;
 }
 
 .inst-title {
@@ -210,24 +218,63 @@ figcaption {
   /* width: 594px; */
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
-  font-style: normal; */
+  font-style: normal;
   text-align: center;
-   font-weight: 400;
+  font-weight: 400;
   line-height: 30px;
 }
 
-.inst-img{
-    display: flex;
-    
-    align-items: center;
-    padding: 30px 240px 0px 240px;
+.inst-img {
+  display: flex;
+
+  align-items: center;
+  padding: 30px 240px 0px 240px;
 }
-.inst-image{
-    
-    padding: 24px;
-    /* width: 342px;
+.inst-image {
+  padding: 24px;
+  /* width: 342px;
     height: 396px; */
-    object-fit: cover;
-    
+  object-fit: cover;
 }
 
+/* lastest deal   */
+
+.deal {
+  padding: 0;
+  margin-top: 80px;
+  align-items: center;
+  background-image: url(/assets/images/Rectangle-9.png);
+  background-attachment: cover;
+  text-align: center;
+  width: 1440px;
+  height: 449px;
+  margin-left: 260px;
+  margin-right: 2=00px;
+}
+
+.deal-content {
+  padding-top: 122px;
+  display: block;
+  justify-content: space-around;
+}
+
+.deal-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+input {
+  padding: 15px;
+  width: 700px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  border-radius: 8px;
+  border: none;
+}
