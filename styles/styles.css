@@ -243,19 +243,21 @@ figcaption {
   padding: 0;
   margin-top: 80px;
   align-items: center;
-  background-image: url(assets/images/Rectangle-9.png);
+  background-image: url(/assets/images/Rectangle-9.png);
   background-attachment: cover;
   text-align: center;
   width: 1440px;
   height: 449px;
   margin-left: 260px;
   margin-right: 2=00px;
+  margin-bottom: 120px;
 }
 
 .deal-content {
   padding-top: 122px;
   display: block;
   justify-content: space-around;
+  margin-bottom: 50px;
 }
 
 .deal-title {
@@ -277,4 +279,45 @@ input {
   line-height: 30px;
   border-radius: 8px;
   border: none;
+}
+
+footer {
+  background-color: black;
+  height: 449px;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-title {
+  color: white;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 128px;
+  padding-bottom: 10px;
+}
+
+.text-f {
+  color: #e55473;
+}
+
+.footer-description {
+  width: 625px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-left: 648px;
+
+  padding-bottom: 20px;
+}
+
+small {
+  padding-bottom: 128px;
+  color: rgba(255, 255, 255, 0.4);
 }
