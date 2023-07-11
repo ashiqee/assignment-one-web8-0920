@@ -197,6 +197,8 @@ figcaption {
 
 .instagram {
   /* justify-content: space-around; */
+  background-blend-mode: overlay;
+  background-position: center;
 }
 
 .inst-content {
@@ -244,12 +246,15 @@ figcaption {
   margin-top: 80px;
   align-items: center;
   background-image: url(../assets/images/Rectangle-9.png);
-  background-repeat: no-repeat;
+  
   text-align: center;
-
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 449px;
   margin-left: 260px;
-  margin-right: 2=00px;
+  margin-right: 240px;
   margin-bottom: 120px;
 }
 
@@ -305,14 +310,14 @@ footer {
 }
 
 .footer-description {
-  width: 625px;
+  /* width: 625px; */
   color: rgba(255, 255, 255, 0.9);
   font-size: 18px;
   text-align: center;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  padding-left: 648px;
+  /* padding-left: 648px; */
 
   padding-bottom: 20px;
 }
